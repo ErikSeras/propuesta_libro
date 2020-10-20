@@ -3,7 +3,25 @@ title: "Propuesta de libro online"
 author: "Erik Seras"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+link-citations: yes
+github-repo: ErikSeras/propuesta_libro
+description: "Ejemplo de propuesta de libro para el CPEI."
 ---
 
-# Down the rabbit-hole
+
+# Prólogo {-}
+
+Este es un ejemplo de prólogo.
+
+
+
+```{r, echo=FALSE}
+# ![](images/by-nc-nd-88x31.png)
+knitr::include_graphics("images/by-nc-nd-88x31.png")
+```
+
+Este obra está bajo una licencia de [Creative Commons Reconocimiento-NoComercial-SinObraDerivada 4.0 Internacional](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es_ES) 
+(esperamos poder liberarlo bajo una licencia menos restrictiva más adelante...).
 
